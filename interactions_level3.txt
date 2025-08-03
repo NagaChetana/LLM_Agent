@@ -1,32 +1,6 @@
 Welcome to the Full Agent.
 Ask me a multi-step question (or type 'quit' to exit).
 
-> "Tell me the capital of Italy, then multiply 12 and 12."
-
---- Processing Multi-Step Query ---
-Step 1: Handling non-tool part.
-Agent's Thought: The capital of Italy is Rome.
-Final Answer: The capital of Italy is Rome.
-
-
-Step 2: Handling tool part.
-Agent Action: Calling tool: multiply with arguments ['12', '12']
-Tool Result: 144.0
-
-Final Answer:
-The capital of Italy is Rome, and 12 multiplied by 12 is 144.
-
-
-> Traceback (most recent call last):
-  File "C:\Users\Chetana\Desktop\LLM_Assignement_Level1\full_agent.py", line 133, in <module>
-    main()
-  File "C:\Users\Chetana\Desktop\LLM_Assignement_Level1\full_agent.py", line 61, in main
-    user_question = input("\n> ")
-KeyboardInterrupt
-(myenv) PS C:\Users\Chetana\Desktop\LLM_Assignement_Level1> python full_agent.py
-Welcome to the Full Agent.
-Ask me a multi-step question (or type 'quit' to exit).
-
 > "Translate 'Good Morning' into German and then multiply 5 and 6."
 
 --- Processing Standard Query ---
@@ -111,3 +85,4 @@ The sum of 2 and 2 is 4, and the product of 3 and 3 is 9.
 
 Final Answer:
 The distance between Earth and Mars varies greatly depending on the positions of both planets in their orbits.  It can range from about 33.9 million miles (54.6 million kilometers) at its closest to as far as 250 million miles (401 million kilometers).
+
