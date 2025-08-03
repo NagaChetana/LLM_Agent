@@ -1,1 +1,35 @@
+> "What are the colors in a rainbow?"
+
+The colors in a rainbow are:
+
+1. Red
+2. Orange
+3. Yellow
+4. Green
+5. Blue
+6. Indigo
+7. Violet
+
+
+> "Tell me why the sky is blue?"
+
+Step 1: Sunlight is composed of all the colors of the rainbow.
+
+Step 2: When sunlight enters the Earth's atmosphere, it collides with tiny air molecules (mostly nitrogen and oxygen).
+
+Step 3: This collision causes a phenomenon called scattering, where the shorter wavelengths of light (blue and violet) are scattered more than the longer wavelengths (red and orange).  This is known as Rayleigh scattering.
+
+Step 4:  Because blue light is scattered in all directions much more effectively, we see blue light coming from all parts of the sky.
+
+Step 5: While violet light is scattered even more than blue light, our eyes are less sensitive to violet, and the sun emits slightly less violet light, resulting in our perception of a blue sky.
+
+
+> "Which planet is the hottest?"
+
+Venus is the hottest planet in our solar system.
+
+
+> What is 15+ 23?
+
+I am a language model and not equipped to perform mathematical calculations. You would need a calculator tool for that.
 
