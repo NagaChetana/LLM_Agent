@@ -1,0 +1,23 @@
+ "What is 12 times 7?"
+Tool call detected: multiply with arguments ['12', '7']
+Tool result: 84.0
+
+The result of the calculation is 84.0
+
+
+> "Add 45 and 30"
+Tool call detected: add with arguments ['45', '30']
+Tool result: 75.0
+
+The result is 75.0
+
+
+> "What is the capital of France?"
+
+Paris
+
+
+> "Multiply 9 and 8, and also tell me the capital of Japan."
+Tool call detected: multiply with arguments ['9', '8']
+Tool result: 72.0
+The calculation resulted in 72.0. I can only perform one simple task at a time. I cannot handle multi-step requests.
