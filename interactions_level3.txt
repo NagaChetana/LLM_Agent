@@ -1,0 +1,113 @@
+Welcome to the Full Agent.
+Ask me a multi-step question (or type 'quit' to exit).
+
+> "Tell me the capital of Italy, then multiply 12 and 12."
+
+--- Processing Multi-Step Query ---
+Step 1: Handling non-tool part.
+Agent's Thought: The capital of Italy is Rome.
+Final Answer: The capital of Italy is Rome.
+
+
+Step 2: Handling tool part.
+Agent Action: Calling tool: multiply with arguments ['12', '12']
+Tool Result: 144.0
+
+Final Answer:
+The capital of Italy is Rome, and 12 multiplied by 12 is 144.
+
+
+> Traceback (most recent call last):
+  File "C:\Users\Chetana\Desktop\LLM_Assignement_Level1\full_agent.py", line 133, in <module>
+    main()
+  File "C:\Users\Chetana\Desktop\LLM_Assignement_Level1\full_agent.py", line 61, in main
+    user_question = input("\n> ")
+KeyboardInterrupt
+(myenv) PS C:\Users\Chetana\Desktop\LLM_Assignement_Level1> python full_agent.py
+Welcome to the Full Agent.
+Ask me a multi-step question (or type 'quit' to exit).
+
+> "Translate 'Good Morning' into German and then multiply 5 and 6."
+
+--- Processing Standard Query ---
+
+Processing Step:
+Agent Action: Calling tool: multiply with arguments ['5', '6']
+Tool Result: 30.0
+
+Processing Step:
+Agent Action: Calling tool: multiply with arguments ['5', '6']
+Tool Result: 30.0
+
+Final Answer:
+"Good morning" translated to German is "Guten Morgen".
+
+The result of multiplying 5 and 6 is 30.
+
+
+> "Add 10 and 20, then translate 'Have a nice day' into German."
+
+--- Processing Standard Query ---
+
+Processing Step:
+Agent Action: Calling tool: add with arguments ['10', '20']
+Tool Result: 30.0
+
+Processing Step:
+Agent Action: Calling tool: translate_to_german with arguments ['Have a nice day']
+Tool Result: Einen schönen Tag
+
+Final Answer:
+The sum of 10 and 20 is 30.  The German translation of "Have a nice day" is "Einen schönen Tag".
+
+
+> "Tell me the capital of Italy, then multiply 12 and 12."
+
+--- Processing Multi-Step Query ---
+Step 1: Handling non-tool part.
+Agent's Thought: The capital of Italy is Rome.
+Final Answer: The capital of Italy is Rome.
+
+
+Step 2: Handling tool part.
+Agent Action: Calling tool: multiply with arguments ['12', '12']
+Tool Result: 144.0
+
+Final Answer:
+The capital of Italy is Rome, and 12 multiplied by 12 is 144.
+
+
+> "Translate 'Sunshine' into German." (only one step)
+
+--- Processing Standard Query ---
+
+Processing Step:
+Agent Action: Calling tool: translate_to_german with arguments ['Sunshine']
+Tool Result: Sonnenschein
+
+Final Answer:
+The German translation of "Sunshine" is Sonnenschein.
+
+
+> "Add 2 and 2 and multiply 3 and 3."
+
+--- Processing Standard Query ---
+
+Processing Step:
+Agent Action: Calling tool: add with arguments ['2', '2']
+Tool Result: 4.0
+
+Processing Step:
+Agent Action: Calling tool: multiply with arguments ['3', '3']
+Tool Result: 9.0
+
+Final Answer:
+The sum of 2 and 2 is 4, and the product of 3 and 3 is 9.
+
+
+> "What is the distance between Earth and Mars?" (LLM direct answer)
+
+--- Processing Standard Query ---
+
+Final Answer:
+The distance between Earth and Mars varies greatly depending on the positions of both planets in their orbits.  It can range from about 33.9 million miles (54.6 million kilometers) at its closest to as far as 250 million miles (401 million kilometers).
